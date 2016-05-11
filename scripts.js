@@ -71,7 +71,7 @@ function drawCanvas(canvas) {
     var bulbTop = boxTop + boxHeight + 10;
 
     ctx.beginPath();
-    ctx.ellipse(bulbLeft, bulbTop, bulbRadius, bulbRadius, 0, Math.PI * 2, 0);
+    ctx.arc(bulbLeft, bulbTop, bulbRadius, 0, Math.PI * 2);
     ctx.fill();
     ctx.stroke();
 
