@@ -30,6 +30,6 @@ var data = [
       "milestone6",
       "milestone7"
     ],
-    step: 7
+    step: 1
   }
 ];
